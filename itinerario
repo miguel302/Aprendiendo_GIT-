@@ -1,0 +1,41 @@
+23-09-2022 
+	Actualizo perfirl 
+	Creo repositorio "Aprendiendo_git"
+		- Relleno el readme
+
+24-09-2022
+	Empiezo viendo videos "pildoras informaticas"
+		- Conceptos basicos
+		- instalo vscode
+		- git unit a la carpeta aprendiendo 
+		
+			MENSAJE TERMINAL
+			Inicializado repositorio Git vacío en /home/miguel/Documentos/OperacionDESARROLLADOR/Aprediendo_GIT/.git/
+				esta carpeta no donde se van guardando el codigo, y no nos insteresa.
+		SIEMPRE SE INGORA NO SE COMPARTE ENTRE LOS DESARROLLADORES
+			ayuda: Usando 'master' como el nombre de la rama inicial. Este nombre de rama predeterminado
+			ayuda: está sujeto a cambios. Para configurar el nombre de la rama inicial para usar en todos
+			ayuda: de sus nuevos repositorios, reprimiendo esta advertencia, llama a:
+			ayuda: 	git config --global init.defaultBranch <nombre>
+			ayuda: Los nombres comúnmente elegidos en lugar de 'master' son 'main', 'trunk' y
+			ayuda: 'development'. Se puede cambiar el nombre de la rama recién creada mediante este comando:
+			ayuda: 	git branch -m <nombre>
+
+		
+	Empiezo a ver video de "homa mundo"  git en una hora   https://www.youtube.com/watch?v=VdGzPZ31ts8&t=737s
+
+		Dice de aprender por terminal " ya que entornos visuales como githab tiene limitaciones"
+		
+		configurar git 
+			git config --global user.name "miguel garcia"
+			git config --global user.email mgcampoy2@gmail.com
+			git config --global core.editor "code --wait"· #CODE STUDIO VISUAL como predeterminado
+			git config --global -e
+				# Dice "dice las diferencia entre los equipos con windows y linux que trabajan sobre del mismo repositorio" 		habla de salto de linea entiendo que no hace daño aunq no lo utilice
+			git config --global core.autocrlf input # este comando para linux mac y para windows seria false en lugar de input
+			# termino para mas informacion git config --h 
+			
+		comandos basicos
+			code . #el punto dice q abra el programa desde la carpeta de donde este
+			git add . #sube a stage todo lo q haya en la carpeta, PERO NO LO RECOMIENDA por puede q se suba algo q no queramos, archivo binarios (grande) ej. imagenes ejecutables
+			
