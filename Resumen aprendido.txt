@@ -34,3 +34,16 @@ Empiezo a ver video de "homa mundo"  git en una hora   https://www.youtube.com/w
 			git log --oneline  #te muestra los commit y los comentario
 
 			BRANCH
+
+			git branch  #consultar en la rama que estamos
+			git checkout -b rama-b  #crear una rama
+			# si ejecutamos git log --oneline   vemos la rama activo --> HEAD en este caso rama-b 
+			git checkout "nombre rama"   #nos cambia a la rama 
+			git marge ramab # ejecutamos desde donde queremos reciba los cambios #traernos cambio de la rama b a master
+
+			SUBIR A GITHUB
+			git remote add origin https://github.com/miguel302/Aprendiendo_GIT-
+			git -u origin master # -u siginifica que se pide q se cree la carptera en el remoto 
+
+			git checkout -c ramaC
+			git push -u origin ramaC
