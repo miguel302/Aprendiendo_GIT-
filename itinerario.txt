@@ -22,4 +22,9 @@
 
 25-09-2022 
 	Sigo con "hola mundo" 
+
+26-09-2022 
+	hoy termino con "hola mundo", a ver si hoy aprendo a subir de git a github,
+	y asi crear otro repostorio "Aprendiendo ODOO" "Script odoo" llevar en paralelo git, y odoo
+
 		
