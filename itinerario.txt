@@ -19,4 +19,7 @@
 			configurar git 
 				
 			comandos basicos
+
+25-09-2022 
+	Sigo con "hola mundo" 
 		
