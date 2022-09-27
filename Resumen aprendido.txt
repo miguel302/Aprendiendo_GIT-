@@ -13,8 +13,9 @@ Empiezo a ver video de "homa mundo"  git en una hora   https://www.youtube.com/w
 			
 		comandos basicos
 			code . #el punto dice q abra el programa desde la carpeta de donde este
-			git add . #sube a stage todo lo q haya en la carpeta, PERO NO LO RECOMIENDA por puede q se suba algo q no queramos, archivo binarios (grande) ej. imagenes ejecutables
-			git commit -m "menter mensaje en el mismo "
+			git init #para iniciando repositorio en la carpeta donde se ejecute 
+			git add . #sube a stage todo lo q haya en la carpeta, PERO NO LO RECOMIENDA porq puede q se suba algo q no queramos, archivo binarios (grande) ej. imagenes ejecutables
+			git commit -m "meter mensaje en el mismo "
 			git commit # Abre txt con VSC indicando q mensaje ha sido modificado y poner comentario, mas extentenso 
 			git rm "archivoxxx"   "Ahorra 2 comando (borrado y git add)
 			git restore --staged 1ª\ prueba.txt  # esto es para recuperar de staged (en el ejemplo de borrar)
