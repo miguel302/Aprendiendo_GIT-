@@ -47,3 +47,9 @@ Empiezo a ver video de "homa mundo"  git en una hora   https://www.youtube.com/w
 
 			git checkout -c ramaC
 			git push -u origin ramaC
+
+			TECLAS DE ATAJO
+			CTRL + tab  -- cambiar de archivo activo
+			ctrl + "-"  -- zoom alegar y al ver con el +
+			ctrl + s    -- Guardar 
+			ctrl + w    -- cerrar archivo
